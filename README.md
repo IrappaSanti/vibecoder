@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Code Deck | An Online IDE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Objective
 
-## Available Scripts
+1. Create a playground area where one can create multiple code snippets and run it using an online compiler and execution system(Judge0)
+2. Create a Code Editor Frontend using ReactJS (CodeMirror package)
+3. Implemented flexible layout structure using styled components
+4. Use Rapid API to setup our Judge0 API
+5. Add multi-language support (cpp, python, java, javascript)
+6. Add multi-theme support 
+7. Upload and Download Code
+8. Input and Output console(can upload text files for input & download output)
+9. Functionality to save multiple playground in local storage
+10. Add Fullscreen Support
 
-In the project directory, you can run:
+### React Canvas Drawing Tool
 
-### `npm start`
+Welcome to the React Canvas Drawing Tool! This is a versatile drawing application built with ReactJS, offering a range of features to unleash your creativity. Whether you're an artist or just looking for a fun way to express yourself, this tool has got you covered.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Features
+1. Pen Tool
+Draw freely with the pen tool, allowing you to create intricate designs with precision.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Rectangle Tool
+Easily draw rectangles on the canvas, perfect for creating structured shapes and patterns.
 
-### `npm test`
+3. Circle Tool
+Create perfect circles effortlessly using the circle tool, adding a touch of symmetry to your artwork.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Color Tool
+Choose from a wide range of colors to bring your drawings to life. The color tool lets you express your creativity with a vibrant palette.
 
-### `npm run build`
+5. Movable Canvas
+Navigate and explore your canvas with ease. The tool provides a movable canvas to focus on specific areas of your artwork.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6. Undo and Redo Feature
+Made a mistake? No worries! The undo and redo features allow you to easily correct and experiment with different ideas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+7. Cross Platform
+Works seamlessly on both touch-based inputs and mouse interactions!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+8. Export and Import Drawn Canvas
+Save your masterpieces! Export your drawings to ediate json format and import them back to continue your work later.
 
-### `npm run eject`
+## Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React JS - for frontend 
+- Styled Components  - for styling
+- Judge0 CE API - to create and get submissions
+- Rapid API - to Setup Judge0 CE API
+- Axios - to make API calls
+- React Router - For routing 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Spotify Integration
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Enhance your coding experience with Spotify Integration in WipeCoding! Enjoy background music tailored to your mood while you work on your projects.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Features:
 
-## Learn More
+Embedded Spotify Player: Seamlessly integrated Spotify iframe to play your favorite tracks.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Mood-Based Playlists: Select playlists that match your coding vibe—focus, chill, or upbeat.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Playback Controls: Play, pause, and switch tracks without leaving the coding environment.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Minimal Distraction: Keep the music in the background while staying focused on your work.
