@@ -58,7 +58,7 @@ const Navbar = props => {
       }}>
         <Logo src={logo} />
         <MainHeading>
-          <span>Wipe</span> Code
+          <span>Vibe</span> Code
         </MainHeading>
       </NavbarContent>
       <UnorderList>
